@@ -1,4 +1,4 @@
-## Reqirements
+## Requirements
 
 * NumPy
 * Scikit-learn
