@@ -10,7 +10,8 @@ class BranchEvaluator:
   def __init__(self,submission,solution):
     self.submission = submission
     self.solution = solution
-    #random.seed(the actual seed is not public)
+    random.seed(19890223)
+    #the actual seed is not public)
 
   def run(self):
     sum_public = 0; num_public = 0
