@@ -8,7 +8,7 @@ class UpsellingEvaluator:
   def __init__(self,submission,solution):
     self.submission = submission
     self.solution = solution
-    random.seed(19890223)
+    #random.seed(the actual seed is not public)
 
   def run(self):
     truth = []; pred = []
