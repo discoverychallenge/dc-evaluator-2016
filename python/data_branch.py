@@ -3,6 +3,7 @@ class BranchData:
   def __init__(self,file_name):
     self.data = {}
     f = open(file_name,'r')
+    f.readline()
     for line in f:
       line = line.strip("\n")
       records = line.split(",")

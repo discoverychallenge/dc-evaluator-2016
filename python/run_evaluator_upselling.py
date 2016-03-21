@@ -1,3 +1,4 @@
+import sys
 from data_upselling import UpsellingData 
 from evaluator_upselling import UpsellingEvaluator
 
@@ -8,4 +9,4 @@ submission = UpsellingData(submission_file)
 solution = UpsellingData(solution_file)
 
 evaluator = UpsellingEvaluator(submission,solution)
-return evaluator.run()
+print evaluator.run()
